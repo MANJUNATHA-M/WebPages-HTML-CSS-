@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("https://img.freepik.com/premium-photo/close-up-black-flowers-dark-background_181083-255.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAV STARTING */
+.logo
+{
+   margin-top:50px ;
+}
+
+.navbar {
+    word-spacing: 25px;
+    margin: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    /* background-color: cornflowerblue; */
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+
+}
+
+ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+ul li ul.dropdown li {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+ul li ul.dropdown {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: none;
+}
+
+ul li a:hover {
+    border-radius: 10px;
+    background-color: rgb(39, 75, 144);
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.Login-here
+{
+    width: 280px;
+    height: 350px;
+    /*border: 2px solid white;
+    */border-radius: 6px;
+    box-shadow: 1px 1px  18px rgba(248, 247, 247, 0.774);
+    text-align: center;
+  
+    
+}
+/* LOGIN ENDING */
+
+
+/* LOGIN STARTING */
+.Login-here
+{
+    display:block;
+    color: white;
+    float: right;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+
+button
+{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding-left:70px ;
+    padding-top: 5px;
+    padding-bottom:5px ;
+    padding-right: 70px;
+   
+}
+
+.but1
+{
+  font-size: large;
+  font-weight: 700;
+  color: rgb(53, 122, 251);
+}
+input
+{
+    padding: 6px 15px 6px 15px;
+    background: none;
+    margin-top: 8px;
+    border: none;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.but2
+{
+    padding-left: 90px;
+    padding-right: 90px;
+  font-size: large;
+  font-weight: 200;
+  background-color: rgb(53, 122, 251);
+}
+p{
+    font-weight: 600;
+}
+p a
+{
+    text-decoration: none;
+    color: rgb(37, 111, 247);
+}
+.all-logos{
+    text-indent: 15px;
+}
+/* LOGIN ENDING */
+
+/* TEXT STARTING */
+.text {
+    margin-top: 120px;
+    margin-left: 100px;
+    color: aliceblue;
+    float: left;
+}
+.tt{
+    font-size: larger;
+    font-weight: bolder;
+}
+.text2{
+color: rgb(27, 104, 247);
+text-shadow: 1px 1px 10px rgb(244, 239, 239);
+}
+.tt p
+{
+font-size: medium;
+font-weight: 500;
+}
+
+.button1
+{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding-left:40px ;
+    padding-top: 8px;
+    padding-bottom:8px ;
+    padding-right: 40px;
+    background-color: rgb(27, 104, 247);
+    color: white;
+}
+/* TEXT ENDING */
